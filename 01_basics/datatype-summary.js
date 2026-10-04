@@ -29,13 +29,36 @@ console.log(typeof bignumber);
 const heros = ["stark","beretheon","targereyon"]
 
 // object write in the form of key:"value" formate
-{
-    name:"arun",
-    age:22,
-}
+// {
+//     name:"arun",
+//     age:22;
+// }
 
 //function
 const myFunction=function(){
     console.log("hello world");
     
 }
+
+
+
+// ++++++++++++++ MEMORY ++++++++++++++++++
+// stack(primitive),heap(non-primitive)
+
+//stack
+let userOne="arunmahawar"
+let anotheruser="arunmahawar"
+anotheruser="amanupadhyay"
+console.log(userOne);
+console.log(anotheruser);
+
+//heap
+let UserOne={
+    email:"arun@google.com",
+    upi:"arun@yjk"
+}
+let userTwo=UserOne
+userTwo.email="am@google.com"
+console.log(UserOne.email);
+console.log(userTwo.email);
+
