@@ -43,11 +43,29 @@ const obj3={...obj1,...obj2}
 // }
 
 // user[1].email
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty("isloggedin"));
+// console.log(tinderuser.hasOwnProperty("isloggedin"));
 //use this for check availibilty of object
+
+const course = {
+    coursename:"js hindi",
+    price:"999",
+    courseinstructor:"hitesh choudhary"
+}
+// console.log(course.courseinstructor);
+
+// course.courseinstructor
+
+const {courseinstructor} = course
+// const {courseinstructor: instructor} = course // i cpoy that line ecause if we want to change the object  name which is too long then we just do
+// const{courseinstructor: instructor} the instructor is the name given by uss.
+
+console.log(courseinstructor);
+
+//===========API'S=======================//
+
